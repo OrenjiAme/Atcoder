@@ -1,0 +1,20 @@
+{
+	"return":{"prefix":"re",
+	"body": "return"
+	},
+	"int_input":{"prefix":"I",
+		"body": "int(sys.stdin.readline())"
+	},
+	"int_map_input":{"prefix":"II",
+		"body": "map(int, sys.stdin.readline())"
+	},
+	"int_list_input":{"prefix":["intl","Intl"],
+		"body": "list(map(int,sys.stdin.readline().split()))"
+	},
+	"str_input":{"prefix":"S",
+		"body": "str(sys.stdin.readline().strip("\n")"
+	},
+	"list_input":{"prefix":"L",
+		"body": "list(sys.stdin.readline())"
+	},
+}
